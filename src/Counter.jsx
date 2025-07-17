@@ -10,8 +10,8 @@ function Counter() {
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h2>Simple Counter</h2>
       <h1>{count}</h1>
-      <button onClick={decrease} style={{ marginRight: "10px" }}>- Decrease</button>
-      <button onClick={increase}>+ Increase</button>
+      <button onClick={decrease} style={{ marginRight: "10px", color:"green" }}>- Decrease</button>
+      <button onClick={increase} style={{ marginRight: "10px", color:"red"}}>+ Increase</button>
     </div>
   );
 }
